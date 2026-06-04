@@ -1,7 +1,7 @@
 import React from "react";
 import { useSelector, useDispatch } from "react-redux";
 import { Link } from "react-router-dom";
-import { removeFromCart , clearcart} from '../redux/cartSlice'
+import { removeFromCart , clearcart} from '../Redux/CartSlice'
 
 const Cart = () => {
   const cartItems = useSelector((state) => state.cart.value); // get cars from redux
